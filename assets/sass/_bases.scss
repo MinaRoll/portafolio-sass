@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: $body_font;
+}
+
+body{
+	background-color: $gray;
+}
+
+nav{
+ 	background-color: $color_menu;
+ 	.brand-logo{
+		margin-left: 20px;
+	}
+	.all-buttons{
+		background-color: $color_btn;
+	}
+}
+
+.all-buttons{
+	font-size: $font_size;
+}
+
+.dropdown-content{
+	li{
+		a{
+			font-size: 13px;
+			color: black;
+		}
+	}  
+}
+
+.carousel{
+	top: 0px;
+	position: absolute;
+	.images{
+		li{
+			height:80vh;
+		}
+		.carousel-text{
+			font-weight: bolder;
+			font-size: 70px;
+		}
+		.carousel-parrafo{
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+}
