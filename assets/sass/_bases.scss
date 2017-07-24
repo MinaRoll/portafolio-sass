@@ -13,6 +13,7 @@ nav{
  	background-color: $color_menu;
  	.brand-logo{
 		margin-left: 20px;
+		color: black;
 	}
 	.all-buttons{
 		background-color: $color_btn;
@@ -52,7 +53,7 @@ nav{
 
 .container{
 	z-index:2;
-	position:relative;
+	position:absolute;
 	border-radius: $border_img;
 	width:90%;
 	top: 430px;
@@ -63,3 +64,27 @@ nav{
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+	h6{
+		margin-top:10px;
+		margin-bottom: 50px;
+		.text{
+			margin-bottom:60px;
+    		.container-product{
+				background-color:$gray;
+				.card-title{
+					color:$color_btn;
+	            }
+            }
+		}
+	}	
+}
+
+.one-container{
+ 	background-color:white;
+ 	box-shadow: $shadow;
+	padding-bottom: 10px;
+	height: 500px;
+	width:80%;
+	position: relative;
+	border-radius: 6px;
+ }
