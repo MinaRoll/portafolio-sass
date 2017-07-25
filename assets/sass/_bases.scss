@@ -88,3 +88,195 @@ nav{
 	position: relative;
 	border-radius: 6px;
  }
+
+.img-portfolio{
+ 	border-radius: $border_img;
+ }
+
+.fa.fa-th{
+	color:$color_btn;
+}
+
+.fa.fa-th-list{
+	color:$blue_color;
+}
+
+.fa.fa-bars{
+	color: $green_color;
+}
+
+.blog{
+	box-shadow: $shadow;
+}
+
+.newsletter{
+	background:url("../assets/img/about.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.customers{
+	width: 100px;
+	box-shadow: $shadow;
+}
+
+ 
+
+ .two-container{
+ 	background:url('../assets/img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 90%;
+    position: relative;
+    top: 430px;
+    box-shadow:$shadow;
+ }
+
+ .container-product.six-container{
+ 	background-color:$gray;
+ 	box-shadow:$shadow;
+
+ }
+
+ .portfolio{
+ 	background-color:white;
+ 	box-shadow:$shadow;
+ }
+
+ .team{
+ 	border-radius:$border_img;
+ 	width: 85%;
+ 	box-shadow:$shadow;
+ }
+
+ .form-newsletter{
+ 	background-color:white;
+ 	border-radius:$border_img;
+
+ }
+
+ .fuente{
+ 	background-color: $color_btn;
+ }
+
+ .numero{
+ 	font-weight: bolder;
+ 	font-size: 40px;
+ 	.negrita{
+ 		color:black;
+ 		font-weight:bolder;
+ 	}
+ }
+
+ .card.card1{
+ 	background-color:$gray;
+ }
+
+ .titulo-card{
+	color:$color_btn;
+}
+
+ .text-white{
+ 	color:$gray;
+ }
+
+ .suscripcion{
+	color:white;
+}
+
+ form{
+ 	background-color:white;
+ 	border-radius:$border_img;
+ 	margin-top:20px;
+ 	box-shadow:$shadow;
+	.caja-rosada{
+	 	background-color:$color_btn;
+	 	padding:20px;
+	 	color:white;
+	 	border-radius:$border_img;
+	 	box-shadow:$shadow;
+ 	}
+ }
+
+
+.container-decima-seccion{
+	background:url('../assets/img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+    position: relative;
+    top: 430px;
+    
+}
+
+.text-blanco{
+	color:white;
+	.text-blanco-bolder{
+		font-weight:bolder;
+	}
+}
+
+.fuente-titulos{
+	font-family:$title_font;
+	font-weight:bolder;
+}
+
+//no logré anidarlos con sus padres por eso están por separado. (colores a iconos redes sociales y titulos)
+
+.rosado{
+	color:$color_btn;
+}
+.calipso{
+	color:$blue_color;
+}
+
+.rojo{
+	color:$red_color;
+}
+
+
+.facebook{
+	color:$facebook;
+}
+
+.twitter{
+	color:$twitter;
+}
+
+.linkedin{
+	color:$linkedin;
+}
+
+.google{
+	color:$google;
+}
+
+.dribbble{
+	color:$dribbble;
+}
+
+.pinterest{
+	color:$pinterest;
+}
+
+.img-portfolio{
+	box-shadow:$shadow;
+}
+
+ .footer{
+ 	background-color:$color_foot;
+ 	color:white;
+ 	.enlaces-footer{
+		color:$gray;
+	
+	}
+ }
+
+.enlaces-footer:hover{
+	color:$color_btn;
+}
